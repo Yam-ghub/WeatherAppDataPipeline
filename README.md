@@ -1,5 +1,5 @@
 ## Project Overview
-**Project Title**: Weather App data pipeline in Snowflake 
+**Project Title**: Weather App data pipeline in Snowflake
 **Database**: `Tasty_Bytes`
 
 Weather Application Data Pipeline is an end-to-end cloud data engineering project that demonstrates a modern ELT workflow using Amazon S3, Snowflake, and Streamlit. Raw weather data from the Pelmorex Weather Dataset is first stored in Amazon S3, then ingested and transformed within Snowflake to create analytics-ready datasets. Finally, the processed data is served through an interactive Streamlit application, enabling users to explore weather trends and insights through a web-based interface.
