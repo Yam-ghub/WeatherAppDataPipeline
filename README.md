@@ -22,7 +22,7 @@ This project showcases key data engineering concepts including cloud storage int
 CREATE OR REPLACE DATABASE tasty_bytes;
 CREATE OR REPLACE SCHEMA raw_pos;
 ````
-### 2. Ingestion from S3 and creation of table
+### 2. Ingestion of Data from S3 to Country table 
 ```sql
 ---Load Sales Data From AWS S3
 CREATE OR REPLACE STAGE tasty_bytes.public.s3load
