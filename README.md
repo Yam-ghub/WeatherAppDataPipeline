@@ -554,9 +554,7 @@ WHERE
 ;
 
 // I would like to look at last year's weather in Sydney from September - November.
-/*
-We would like to look at the weather last year from September to November in Sydney so we can determine the best location to park our food truck during those months.
-*/
+// We would like to look at the weather last year from September to November in Sydney so we can determine the best location to park our food truck during those months.
 SELECT
     postal_code,
     country,
