@@ -46,7 +46,7 @@ CREATE OR REPLACE TABLE tasty_bytes.raw_pos.country
 COPY INTO tasty_bytes.raw_pos.country
 FROM @tasty_bytes.public.s3load/raw_pos/country/;
 ```
-### 4. Setup Tables
+### 3. Setup Tables
 ```sql
 USE ROLE accountadmin;
 USE DATABASE tasty_bytes;
@@ -576,5 +576,4 @@ ORDER BY
 ;
 
 ```
-
 
