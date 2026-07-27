@@ -46,7 +46,7 @@ CREATE OR REPLACE TABLE tasty_bytes.raw_pos.country
 COPY INTO tasty_bytes.raw_pos.country
 FROM @tasty_bytes.public.s3load/raw_pos/country/;
 ```
-### 3. Data Exploration
+### 3. Insights/Inquaries
 ```sql
 What will the weather be like in Boston next weekend?
 /*
